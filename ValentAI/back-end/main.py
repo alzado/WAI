@@ -5,7 +5,7 @@ from flask_cors import CORS
 app = Flask(__name__)
 CORS(app)
 
-openai.api_key = "<YOURKEY>"
+openai.api_key = "<YOUR-KEY>"
 
 @app.route('/process-data', methods=['GET', 'POST'])
 def processData():
